@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Қош келдіңіз!</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body id="body">
+    <header id="header">
+        <a href="#" class="logo">Safe Room</a>
+        <ul>
+            <li><a href="home_kaz.html" class="active">Үй парақшасы</a></li>
+            <li><a href="first_kaz.html">Дүрбелең мен истерика</a></li>
+            <li><a href="help_kaz.html">Айналаңыздағы адамдарға көмектесіңіз</a></li>
+            <li><a href="about_kaz.html">Біз жайлы</a></li>
+            <li>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Тіл
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item active" href="home_kaz.html"><center><img src="kz.png"></center></a>
+                        <a class="dropdown-item" href="homerus.html"><center><img src="ru.png"></center></a>
+                        <a class="dropdown-item" href="home.html"><center><img src="usa.png"></center></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <section id="section">
+        <h2 id="text"><span>Welcome to the</span><br />SafeRoom</h2>
+        <img src="bird1.png" id="bird1" />
+        <img src="bird2.png" id="bird2" />
+        <img src="forest.png" id="forest" />
+        <a href="#mainblock" id="btn">Зерттеу</a>
+        <img src="rocks.png" id="rocks" />
+        <img src="water.png" id="water" />
+    </section>
+
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#emptydiv1">
+                    <span class="icon"><i class="fas fa-user-nurse"></i></span>
+                    <span class="title">Дүрбелең мен истерика</span>
+                </a>
+            </li>
+            <li>
+                <a href="#emptydiv2">
+                    <span class="icon"><i class="fas fa-hands-helping"></i></span>
+                    <span class="title">Айналаңыздағы адамдарға көмектесіңіз</span>
+                </a>
+            </li>
+            <li>
+                <a href="#emptydiv3">
+                    <span class="icon"><i class="fab fa-weixin"></i></span>
+                    <span class="title">Біз жайлы</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div style="width:100%; height:100%; z-index:4; display:flex" class="sec">
+        <div id="mainblock">
+            <div id="welcome_block">
+                <h2>«SafeRoom» дегеніміз не?</h2>
+                <p>
+                    Мазасыздықпен күресетін адамдарға көмектесетін төтенше көмек сайты,
+                    қазіргі уақытта дүрбелең шабуылдары немесе истерика. Кейбір кеңестер мен тәсілдер бар
+                    дүрбелең шабуылдарымен күресу үшін, экстремалды жағдайлар бойынша сенім телефоны, қол жетімді нөмірлер
+                    терапевттер, ресурстардың назарын аудару, сондықтан адамдар тез және оңай тыныштала алады
+                    және күтпеген жағдайлардан қалпына келтіру.
+
+                </p>
+                <audio id="welcome_audio">
+                    <source src="audiokaz/welcome_audio.mp3" type="audio/mp3" />
+                </audio>
+            </div>
+            <div id="emptydiv1" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="panicblock" onclick="location.href='first_kaz.html'">
+                <center><p id="block_header">Дүрбелең мен истерика</p></center>
+                <p style="font-size:20px;">Дүрбелеу - бұл кенеттен, ескертусіз және жиі себепсіз пайда болатын және дүрбелең шабуыл деп аталатын эмоциялар толқынына ұласатын басым мазасыздық сезімі.</p>
+            </div>
+            <div id="emptydiv2" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="helpblock" onclick="location.href='help_kaz.html'">
+                <center><p id="block_header">Айналаңыздағы адамдарға көмектесіңіз</p></center>
+                <p style="font-size:20px;">Адамның дүрбелеңге түскенін байқасаңыз, оған қалай көмек бере аласыз?Егер мен адамның дүрбелеңге түсіп жатқанына сенімді болмасам, оны қалай біле алам?</p>
+            </div>
+            <div id="emptydiv3" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="aboutblock" onclick="location.href='about_kaz.html'">
+                <center><p id="block_header">Біз жайлы</p></center>
+                <p style="font-size:20px;">Бұл веб-сайтты Астана IT университетінің 3 студенті жасады. Олардың мақсаты - истериканың кез-келген түріне немесе дүрбелең шабуылына ұшыраған адамдарға көмек. Қазіргі кезде адамдардың көп бөлігі стресстің кез-келген түрімен бетпе-бет келеді, ал кейбіреулер оны таба алмайды бұл стресстен шығу. Сондықтан бұл веб-сайт осы адамдарға арналған.</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Сервистер</h3>
+                        <ul>
+                            <li><a href="home_kaz.html">Дүрбелең мен истерика</a></li>
+                            <li><a href="first_kaz.html">Тез өз-өзінді қолға алуға арналған кеңестер</a></li>
+                            <li><a href="help_kaz.html">Айналаңыздағы адамдарға көмектесіңіз</a></li>
+                            <li><a href="#">Егер сіз демалғыңыз келсе</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Біз жайлы</h3>
+                        <ul>
+                            <li><a href="about_kaz.html#panicblock">Бізбен хабарласу</a></li>
+                            <li><a href="about_kaz.html#helpblock">Біздің команда</a></li>
+                            <li><a href="about_kaz.html#aboutblock">Донат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Safe Room</h3>
+                        <p>
+                            Қазіргі уақытта мазасыздықпен, дүрбелеңмен немесе истерикамен күресетін адамдарға көмектесетін экстремалды көмек сайты.
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Safe Room © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            text.style.top = 50 + value * -0.5 + '%';
+            bird1.style.top = value * -1.5 + 'px';
+            bird1.style.left = value * 2 + 'px';
+            bird2.style.top = value * -1.5 + 'px';
+            bird2.style.left = value * -5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -0.12 + 'px';
+            forest.style.top = value * 0.25 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+        window.addEventListener("scroll", function () {
+            let sidebar = document.querySelector(".navigation");
+            sidebar.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        var Welcome_block = document.getElementById("welcome_block");
+        var Welcome_audio = document.getElementById("welcome_audio");
+        var count = 0;
+
+        Welcome_block.onclick = function () {
+            if (count == 0) {
+                count = 1;
+                Welcome_audio.play();
+            } else {
+                count = 0;
+                Welcome_audio.pause();
+            }
+        };
+    </script>
+</body>
+</html>

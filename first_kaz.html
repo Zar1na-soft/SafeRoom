@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Дүрбелең мен истерика</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="firspage.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body id="body">
+    <header id="header">
+        <a href="home.html" class="logo">Safe Room</a>
+        <ul>
+            <li><a href="home_kaz.html">Үй парақшасы</a></li>
+            <li><a href="first_kaz.html" class="active">Дүрбелең мен истерика</a></li>
+            <li><a href="help_kaz.html">Айналаңыздағы адамдарға көмектесіңіз</a></li>
+            <li><a href="about_kaz.html">Біз жайлы</a></li>
+            <li>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Тіл
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item active" href="first_kaz.html"><center><img src="kz.png"></center></a>
+                        <a class="dropdown-item" href="firstpagerussian.html"><center><img src="ru.png"></center></a>
+                        <a class="dropdown-item" href="firstpage.html"><center><img src="usa.png"></center></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#section-1">
+                    <span class="icon"><i class="fas fa-comment-medical"></i></span>
+                    <span class="title">Кеңестер</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section-2">
+                    <span class="icon"><i class="fas fa-question"></i></span>
+                    <span class="title">Кейін не істеу керек</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section-3">
+                    <span class="icon"><i class="fas fa-user-md"></i></span>
+                    <span class="title">Алдын алу</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="first-layout">
+        <div class="header-image" 
+        style="background-image: url('https://www.calmclinic.com/storage/images/61/qhh5f1/main/w1600.png');">
+            <div class="img-text">
+                Дүрбелең мен истерика
+            </div>
+        </div>
+        
+        <div id="section-1">
+            <div class="section-header">
+                <div class="header-title left" style="cursor:pointer">
+                    <span id="tez_oz_ozine_text">
+                        Тез өз өзіне келуге арналған кеңестер
+                        <audio id="tez_oz_ozine_audio">
+                            <source src="audiokaz/tez_oz_ozine.mp3" type="audio/mp3" />
+                        </audio>
+                    </span>
+                </div>
+                <div class="header-img right" 
+                style="background-image: url('https://s2.r29static.com/bin/entry/307/0,0,2000,2400/1440x1728,85/1785752/image.webp');">
+                </div>
+                <div class="header-text" id="durbeleu_text" style="cursor:pointer">
+                    <p>Дүрбелеу - бұл кенеттен, ескертусіз және жиі себепсіз пайда болатын және дүрбелең шабуыл деп аталатын эмоциялар толқынына ұласатын басым мазасыздық сезімі.</p>
+                    <audio id="durbeleu_audio">
+                        <source src="audiokaz/durbeleu.mp3" type="audio/mp3" />
+                    </audio>
+                </div>
+            </div>
+            <div class="section-main">
+                <p class="main-header" id="teren_dem_text" style="cursor:pointer">
+                    • Терең дем алыңыз
+                    <audio id="teren_dem_audio">
+                        <source src="audiokaz/teren_dem.mp3" type="audio/mp3" />
+                    </audio>
+                </p>
+                <img class="main-image"
+                     src="https://cdn.doyou.com/articles/6a-1575918606525.gif=w1080" alt="">
+                <div id="durbelen_text" style="cursor:pointer">
+                    <p class="main-text">
+                        Дүрбелең шабуылдары сіздің тыныс алуыңызды жылдамдатуы мүмкін, бұл сіздің қорқынышыңызды күшейтеді. Тыныс алуды бәсеңдету арқылы сіз шабуылды тоқтатуға көмектесу арқылы басқа белгілерді азайта аласыз. Терең тыныс алу - бұл сіз мұрын арқылы дем шығаруға және аузыңызбен дем шығаруға көңіл бөле алатын болсаңыз - бұл өте жақсы нұсқа.
+                    </p>
+                    <audio id="durbelen_audio">
+                        <source src="audiokaz/durbelen.mp3" type="audio/mp3" />
+                    </audio>
+                </div>
+                <div id="doctor_text" style="cursor:pointer">
+                    <p class="main-text">
+                        Доктор Эндрю Вайл жасаған 4-7-8 тыныс алу деп аталатын осы стратегиядан бастаңыз. Ысқырған дыбыспен ауызды толық шығарыңыз.
+                    </p>
+                    <audio id="doctor_audio">
+                        <source src="audiokaz/doctor.mp3" type="audio/mp3" />
+                    </audio>
+                </div>
+                <div id="tinis_alu_text" style="cursor:pointer">
+                    <p class="main-text">
+                        • Аузыңызды жауып, тыныштықпен мұрын арқылы дем алыңыз, ақылмен төртке дейін санаңыз.
+                    </p>
+                    <p class="main-text">  •Тынысыңызды 7 секунд ұстаңыз. </p>
+                    <p class="main-text"> •Сегізінші секундта ысқырып, аузыңыздан толық дем шығарыңыз.   </p>
+                    <p class="main-text">  •Бұл бір тыныс. Енді қайтадан дем алып, циклды тағы үш рет қайталаңыз, барлығы төрт рет.   </p>
+                    <audio id="tinis_alu_audio">
+                        <source src="audiokaz/tinis_alu.mp3" type="audio/mp3" />
+                    </audio>
+                </div>
+            </div>
+            <div class="section-main" id="voice3_text" style="cursor:pointer">
+                <audio id="voice3">
+                    <source src="audiokaz/first/voice3.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Кері санау жүргізіңіз
+                </p>
+                <img class="main-image"
+                     src="https://brignews.com/wp-content/uploads/2020/08/calm-clinic.jpg" alt="">
+                <p class="main-text">
+                    100-ден 3-ке дейін санауды бастаңыз. Кездейсоқ аралықта санау психикаңызға енуге тырысып жатқан мазасыз ойларды шоғырландыруға және жеңуге көмектеседі. Өзгерістерді қалтаңызда ұстағаныңыз жөн. Тиынды никельге қосыңыз, содан кейін екі тиын қосыңыз және т.б. Өз ойларыңызды басқарып, өзіңізден тыс нәрсеге назар аудара отырып, сіз өзіңізді тыныш сезінесіз.
+                </p>
+
+            </div>
+            <div class="section-main" id="voice4_text" style="cursor:pointer">
+                <audio id="voice4">
+                    <source src="audiokaz/first/voice4.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Көзінізді жұмыңыз
+                </p>
+                <img class="main-image"
+                     src="https://www.calmclinic.com/storage/images/516/top/1536x716.png?v=1541512736.099" alt="">
+                <p class="main-text">
+                    Кейбір дүрбелең шабуылдары түсініксіз триггерлерден туындайды. Егер сіз тез қозғалатын ортада болсаңыз, онда бұл өте көп қоздырғыш болса, бұл сіздің дүрбелең шабуылыңызды күшейтуі мүмкін.
+                </p>
+                <p class="main-text">
+                    Тітіркенуді азайту үшін дүрбелең шабуыл кезінде көзіңізді жұмыңыз. Бұл кез-келген қосымша тітіркендіргіштерге тосқауыл қоюы мүмкін және тыныс алуға назар аударуды жеңілдетеді.
+                </p>
+            </div>
+            <div class="section-main" id="voice5_text" style="cursor:pointer">
+                <audio id="voice5">
+                    <source src="audiorkaz/first/voice5.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Тыныш жерді табыңыз
+                </p>
+                <img class="main-image"
+                     src="https://99px.ru/sstorage/86/2015/04/image_861504151829403248641.gif" alt="">
+                <p class="main-text">
+                    Көріністер мен дыбыстар дүрбелең шабуылды күшейте алады. Мүмкін болса, тыныш жер табуға тырысыңыз. Бұл жақын тұрған қабырғаға сүйену үшін бос емес бөлмеден шығу дегенді білдіруі мүмкін.
+                </p>
+                <p class="main-text">
+                    Тыныш жерде отыру ақыл-ой кеңістігін тудырады және тыныс алуға және дүрбелең қиындықтарын жеңудің басқа стратегияларына назар аударуға көмектеседі.
+                </p>
+            </div>
+            <div class="section-main" id="voice6_text" style="cursor:pointer">
+                <audio id="voice6">
+                    <source src="audiokaz/first/voice6.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Жерге қосу
+                </p>
+                <img class="main-image"
+                     src="https://www.calmclinic.com/storage/images/291/qhh4k9/main/w1600.png" alt="">
+                <p class="main-text">
+                    Жерге қосу тағы бір пайдалы әдіс. Айналаңызда көруге болатын 4 нәрсені, қолмен ұстауға болатын 3 нәрсені, иіс сезетін және 1 нәрсені дәмін татып көріңіз. Тағы да, өзіңіздің ойыңыздан тыс нәрсе туралы ойлауға мәжбүрлеу көп көмектеседі.
+                </p>
+            </div>
+            <div class="section-main" id="voice7_text" style="cursor:pointer">
+                <audio id="voice7">
+                    <source src="audiokaz/first/voice7.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Біреумен бұл жағдаймен бөлісіңіз
+                </p>
+                <img class="main-image"
+                     src="https://www.jamaicanmedium.com/stories/wp-content/uploads/2020/07/1536x716.png" alt="">
+                <p class="main-text">
+                    Егер дүрбелең шабуылдары көбінесе бір ортада, мысалы, жұмыс орнында немесе әлеуметтік кеңістікте орын алса, бұл туралы біреуге хабарлау және егер бұл қайталанса, қандай қолдау көрсете алатындығын айту пайдалы болады.
+                </p>
+                <p class="main-text">
+                    Егер дүрбелең шабуыл көпшілік алдында болып жатса, бұл туралы басқа адамға айту сізге көмектесе алады. Мүмкін олар тыныш жер тауып, көпшіліктен құтыла алады.
+                </p>
+            </div>
+            <div class="section-main" id="voice8_text" style="cursor:pointer">
+                <audio id="voice8">
+                    <source src="audiokaz/first/voice8.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •     Бақытты жеріңізді елестетіп көріңіз
+                </p>
+                <img class="main-image"
+                     src="https://i.pinimg.com/originals/e5/86/6c/e5866c0c3fb2e6d62f39595fbf0ce546.jpg" alt="">
+                <p class="main-text">
+                    Сіз ойлаған әлемдегі ең демалатын орын қайсы? Жұмсақ толқындары бар шуақты жағажай? Таудағы үй?
+                </p>
+                <p class="main-text">
+                    Өзіңізді сол жерде елестетіп, мүмкіндігінше бөлшектерге назар аударуға тырысыңыз. Саусақтарыңызды жылы құмға көміп немесе қарағайдың өткір хош иісін сезіп елестетіп көріңіз.
+                </p>
+                <p class="main-text">
+                    Бұл жер тыныш, тыныш және босаңсыған болуы керек - Нью-Йоркте де, Гонконгта да көшелер болмайды, сіз шынымен де қалаларды қаншалықты жақсы көрсеңіз де.
+                </p>
+
+            </div>
+            <div class="section-main" id="voice9_text" style="cursor:pointer">
+                <audio id="voice9">
+                    <source src="audiokaz/first/voice9.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •       Есіңізде болсын, бұл өтеді
+                </p>
+                <img class="main-image"
+                     src="https://cdn.dribbble.com/users/614757/screenshots/3103107/tmh-dribble_loop.gif" alt="">
+                <p class="main-text">
+                    Дүрбелең кезінде бұл сезімдер өтіп кететінін және физикалық зиян тигізбейтінін есте сақтау пайдалы, бұл қаншалықты қорқынышты болса да. Бұл қысқа мерзімді шоғырланған уайым және бұл жақын арада аяқталатын кезең екенін мойындауға тырысыңыз.
+                </p>
+                <p class="main-text">
+                    Әдетте дүрбелең шабуылдары ең жаман нүктеге басталғаннан кейін 10 минут ішінде жетеді, содан кейін симптомдар басыла бастайды.
+                </p>
+
+            </div>
+        </div>
+        <div id="section-2">
+            <div class="section-header" id="voice10_text" style="cursor:pointer">
+                <audio id="voice10">
+                    <source src="audiokaz/first/voice10.mp3" type="audio/mp3" />
+                </audio>
+                <div class="header-title right">
+                    <span>
+                        Дүрбелең шабуылынан кейін өзін қалай жақсы сезінуге болады
+                    </span>
+                </div>
+                <div class="header-img left"
+                     style="background-image: url('https://swaay.com/api/v1/attachments/af3a5b6d-3732-47b3-99f0-a591a9a1a137');">
+                </div>
+                <div class="header-text">
+                    <p>Өзіне қамқорлық махаббаттан, ал өзімшілдік қорқыныштан туындайды.</p>
+                    <p>Егер сізде дүрбелең шабуылдары болса, онда сіз олармен күресу өте қиын болатын салдары бар қорқынышты тәжірибе болатынын білесіз. Алайда мұндағы нұсқауларды орындау арқылы сіз біраз тынышталып, дүрбелең шабуылдарынан кейін жолға түсе аласыз.</p>
+                </div>
+            </div>
+            <div class="section-main" id="voice11_text" style="cursor:pointer">
+                <audio id="voice11">
+                    <source src="audiokaz/first/voice11.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •  Өзіңізге мейірімді болыңыз
+                </p>
+                <img class="main-image"
+                     src="https://64.media.tumblr.com/8c5164c442f7590918ff28231377acbc/tumblr_o1picvGXfi1s4c5ilo1_400.gifv" alt="">
+                <p class="main-text">
+                    Алдымен, дүрбелең шабуылынан кейін өзіңізге шынымен жақсы болыңыз. Бұл өте қорқынышты, қорқынышты және ыңғайсыз, сондықтан сіз жасай алатын ең аз нәрсе - кейін өзіңізді еркелету. Суға шомылыңыз, бұйралаңыз, тіскебасар алыңыз, сүйікті фильміңізді көріңіз - демалуға және өзіңізді жайлы сезінуге көмектесетін барлық нәрсе.
+                </p>
+            </div>
+            <div class="section-main" id="voice12_text" style="cursor:pointer">
+                <audio id="voice12">
+                    <source src="audiokaz/first/voice12.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Тамақ ішіп алыңыз
+                </p>
+                <img class="main-image"
+                     src="https://i.pinimg.com/originals/e9/79/0f/e9790f86668f45f83c62f8e165f244c3.gif" alt="">
+                <p class="main-text">
+                    Дүрбелең шабуылы - бұл өте әлсірейтін тәжірибе, сондықтан тамақ сияқты негізгі қажеттіліктерді ескермеу өте маңызды. Сізге тәтті нәрсе қажет болуы мүмкін - және оны еркін жеуге болады - бірақ біз сіздің энергияңызды қалпына келтіруге көмектесетін неғұрлым қанағаттанарлық және қоректік заттарға бай нәрсе таңдауды ұсынамыз. Ұйықтау қабілетіңізге кедергі келтірмеуге кепілдік берілген осы тағамдардың бірін қолданып көріңіз.
+                </p>
+            </div>
+            <div class="section-main" id="voice13_text" style="cursor:pointer">
+                <audio id="voice13">
+                    <source src="audiokaz/first/voice13.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Ұйықтаңыз
+                </p>
+                <img class="main-image"
+                     src="https://data.whicdn.com/images/286587561/original.jpg" alt="">
+                <p class="main-text">
+                    Егер сіз өзіңізді құрғатқыңыз келсе, біз сізді кінәламаймыз. Мұнда сіз өзіңіздің денеңізді міндетті түрде тыңдауыңыз керек. Егер сіз бір жерде ұйықтай алсаңыз, оған барыңыз. Сондай-ақ, кейінірек ұйқың қаншалықты келетінін де біл. Мұны істеу үшін 30 минут бойы сілкіп алмауға тырысыңыз, ал қалғанын түнге қойыңыз.
+                </p>
+            </div>
+            <div class="section-main" id="voice14_text" style="cursor:pointer">
+                <audio id="voice14">
+                    <source src="audiokaz/first/voice14.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Достарыңызға немесе отбасыңызға қоңырау шалыңыз
+                </p>
+                <img class="main-image"
+                     src="http://images.summitmedia-digital.com/cosmo/images/2020/08/17/how-to-talk-friend-lost-job-1597655342.jpg" alt="">
+                <p class="main-text">
+                    Егер сіз өзіңізді жайлы сезінсеңіз, сенімді досыңызбен сөйлесіп, жаңа бастан кешкен нәрселер туралы сөйлесіңіз. Ол сізге осы ойлар мен сезімдерді өңдеуге көмектеседі, ал сіз дайын болған кезде, олардан өзіңізді алшақтатуға көмектеседі. Байланысты сақтау болашақ дүрбелең шабуылдарының алдын алуға көмектеседі.
+                </p>
+            </div>
+            <div class="section-main" id="voice15_text" style="cursor:pointer">
+                <audio id="voice15">
+                    <source src="audiokaz/first/voice15.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •      Назарыңызды басқа нәрсеге аударыңыз
+                </p>
+                <img class="main-image"
+                     src="https://opendoodles.s3-us-west-1.amazonaws.com/reading-side.png" alt="">
+                <p class="main-text">
+                    Дүрбелең шабуылынан кейін сіздің жеке ойларыңыз бен күш-қуатыңыз сіздің алаңдаушылық пен белгілеріңізді сезінуі мүмкін. Сондықтан айналада жатып, оны талқылау әрқашан жақсы идея емес. Оның орнына сіз өзіңіздің назарын босаңсытатын тапсырма немесе хобби сияқты басқа жерде шоғырландырғыңыз келеді. Сіздің санаңызды иемдену жағымсыз ойлардан арылтады және дүрбелең сезімдерін тежеуге көмектеседі.
+                </p>
+            </div>
+            <div class="section-main" id="voice16_text" style="cursor:pointer">
+                <audio id="voice16">
+                    <source src="audiokaz/first/voice16.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Дене күйін өзгертіңіз
+                </p>
+                <img class="main-image"
+                     src="https://imgix.bustle.com/lovelace/uploads/1332/d48691b0-3ca2-0134-3de1-0ad17316e277.jpeg?w=760&h=506&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" alt="">
+                <p class="main-text">
+                    "Егер сіздің денеңіз физикалық тұрғыдан жауап берсе, біз оны физикалық тұрғыдан жұбатуымыз керек"
+                </p>
+                <p class="main-text">
+                    Опциялардың бірі - жай позицияны өзгерту. Егер сіз тұрып, айналаңызда жүрсеңіз, өзіңізге отырыңыз. Немесе сіз шалқаңызда жатып, шабуылдың болатынын сезсеңіз, отыруға немесе біраз айналып өтуге тырысыңыз. Бұл физикалық өзгеріс сіздің денеңізді қалпына келтіруге көмектеседі.
+                </p>
+            </div>
+            <div class="section-main" id="voice17_text" style="cursor:pointer">
+                <audio id="voice17">
+                    <source src="audiokaz/first/voice17.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   5 минут медитация жасаныз
+                </p>
+                <img class="main-image"
+                     src="meditation.png" alt="">
+                <p class="main-text">
+                    Егер сіздің ойыңыз жүйрік болса, онда мақсатты түрде сәл медитациямен баяулаңыз. Қарапайым бес минуттық тыныс алуға көңіл бөлу керек, әсіресе егер сіз өзіңізді бақылаусыз сезінсеңіз.
+                </p>
+            </div>
+        </div>
+        <div id="section-3">
+            <div class="section-header" id="voice18_text" style="cursor:pointer">
+                <audio id="voice18">
+                    <source src="audiokaz/first/voice18.mp3" type="audio/mp3" />
+                </audio>
+                <div class="header-title left">
+                    <span>
+                        Дүрбелең шабуылының алдын алу: Шабуылдың алдын-алу бойынша кеңестер
+                    </span>
+                </div>
+                <div class="header-img right"
+                     style="background-image: url('w1600.webp');">
+                </div>
+                <div class="header-text">
+                    <p>
+                        Дүрбелең шабуылдары кенеттен болуы мүмкін. Олар пайда болған кезде не істеу керектігін білу олардың ауырлығын төмендетеді немесе оларды тоқтатуға көмектеседі.
+                    </p>
+                    <p>
+                        Адамдар дүрбелеңнің қашан болатынын әрдайым болжай алмайды, бірақ олар болған кезде не істеу керектігін жоспарлау адамға бақылауды сезінуге және дүрбелең шабуылдарын басқаруды жеңілдетуге көмектеседі.
+                    </p>
+                </div>
+            </div>
+            <div class="section-main">
+                <p class="main-header">
+                    Дүрбелең шабуылдарының алдын алу жолдары
+                </p>
+            </div>
+            <div class="section-main" id="voice19_text" style="cursor:pointer">
+                <audio id="voice19">
+                    <source src="audiokaz/first/voice19.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Дұрыс тамақтану
+                </p>
+                <img class="main-image"
+                     src="https://www.calmclinic.com/storage/images/397/top/1536x716.png?v=1541516766.485" alt="">
+                <p class="main-text">
+                    Күнделікті өмір үлкенді-кішілі күйзелістерге әкелуі мүмкін. Оларды асықпай қабылдау өзіңізге қамқорлық жасаудан басталады.
+                </p>
+                <p class="main-text">
+                    •   Дұрыс тамақтаныңыз. Теңдестірілген тамақтануға тырысыңыз. Сізбен келіспейтін тағамнан аулақ болыңыз, өйткені реакциялар мазасыздықты тудыруы мүмкін.
+                </p>
+                <p class="main-text">
+                    •   Темекі шегуден және кофеиннен аулақ болыңыз. Олар алаңдаушылықты күшейте алады.
+                </p>
+                <p class="main-text">
+                    •   Алкоголь ішпеңіз немесе заңсыз есірткі қолданбаңыз. Олар сізді тыныштандыратын сияқты көрінуі мүмкін. Бірақ олар сіздің эмоционалды тепе-теңдігіңізді тастай алады, ұйқыңызға кедергі келтіреді және дәрі-дәрмектермен қақтығысуы мүмкін.
+                </p>
+            </div>
+            <div class="section-main" id="voice20_text" style="cursor:pointer">
+                <audio id="voice20">
+                    <source src="audiokaz/first/voice20.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Сіздің ойлауыңыз
+                </p>
+                <img class="main-image"
+                     src="mind.png" alt="">
+                <p class="main-text">
+                    Дүрбелеңді, дүрбелеңді және агорафобияны жоюға арналған кәсіби емдеудің ең тиімді түрі терапия болып табылады. Тіпті қысқа емдеу курсы көмектесе алады.
+                </p>
+                <p class="main-text">
+                    •   Когнитивті мінез-құлық терапиясы сіздің дүрбелең шабуылдарын қолдайтын немесе тудыратын ойлау үлгілері мен мінез-құлықтарына бағытталған және сіздің қорқыныштарыңызға шынайы көзқараспен қарауға көмектеседі. Мысалы, көлік жүргізу кезінде дүрбелең шабуылына ұшыраған болсаңыз, ең жаман нәрсе қандай болуы мүмкін? Сізге жолдың шетіне шығып кету керек болғанымен, сіз көлігіңізді қағып кетпеуіңіз немесе жүрек талмаңыз. Шынында да апатты ештеңе болмайтынын білгеннен кейін, дүрбелең аз қорқынышты болады.
+                </p>
+                <p class="main-text">
+                    •   Дүрбелеңді бұзудың экспозициялық терапиясы қауіпсіз және бақыланатын ортада физикалық дүрбелең сезімін сезінуге мүмкіндік береді, бұл сізге күресудің сау жолдарын үйренуге мүмкіндік береді. Сізден гипервентиляцияны сұраңыз, басыңызды бір жақтан екінші жаққа шайқаңыз немесе тынысыңызды ұстаңыз. Бұл әртүрлі жаттығулар дүрбелең белгілеріне ұқсас сезім тудырады. Әр әсер еткен сайын, сіз дененің ішкі сезімдерінен аз қорқып, үрейіңізді басқарудың үлкен сезімін сезінесіз.
+                </p>
+                <p class="main-text">
+                    Зейінділік пен медитация - жағымсыз ойлармен күресуге көмектесетін басқа тәжірибелер, іс жүзінде біз не істеп жатқанымызды танып, сол ойларды позитивті ойлармен алмастыра аламыз. Біз болып жатқан жағдайдың жақсы жақтарын көріп, өзіміз басқара алмайтын нәрселерді жібере аламыз.
+                </p>
+            </div>
+            <div class="section-main" id="voice21_text" style="cursor:pointer">
+                <audio id="voice21">
+                    <source src="audiokaz/first/voice21.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   Сіздің денеңіз
+                </p>
+                <img class="bodypic"
+                     src="stay-home-stay-fit.png" alt="">
+                <p class="main-text">
+                    Өзіңізге физикалық қамқорлық жасау сіздің көңіл-күйіңізді жақсарта алады. Кейбіреулерін қолданып көріңіз:
+                </p>
+                <p class="main-text">
+                    •   Үнемі жаттығу. Бұл стресстен арылтылған және сіздің көңіл-күйіңізге, ұйқыңызға және басқаларына көмектеседі. Ең көп пайда алу үшін аптасына кем дегенде 2,5 сағаттық орташа қарқынды жаттығуларға ұмтылыңыз, мысалы жаяу жүру немесе 1,25 сағаттық жаттығулар, мысалы, жүгіру немесе шомылу.
+                </p>
+                <p class="main-text">
+                    •   Йога, тайчи және басқа да жай жаттығулар. Олар мазасыздықты басуы мүмкін.
+                </p>
+                <p class="main-text">
+                    •   Тыныс алу жаттығулары. Сіз тыныс алу мен дем шығарудың жылдамдығын басқаруды үйренгенде, күн сайын жаттығыңыз, бұл мазасыздықты жеңілдетеді. Егер сізде шабуыл болса, сіз оны тыныштандыру үшін оған сүйене аласыз.
+                </p>
+                <p class="main-text">
+                    •   Ұйқы жеткілікті. Бұл сізді күндіз грогги болудан сақтайды.
+                </p>
+                <p class="main-text">
+                    Бірқатар дәрі-дәрмектер дүрбелең шабуылын болдырмауға көмектеседі. Дәрігермен бұл сізге сәйкес келетіндігі туралы сөйлесуді қарастырыңыз.
+                </p>
+            </div>
+            <div class="section-main" id="voice22_text" style="cursor:pointer">
+                <audio id="voice22">
+                    <source src="audiokaz/first/voice22.mp3" type="audio/mp3" />
+                </audio>
+                <p class="main-header">
+                    •   сіздің жұмысыңыз
+                </p>
+                <img class="main-image"
+                     src="teammeeting.png" alt="">
+                <p class="main-text">
+                    Дөрекі жұмыс күні ме? Тұрақты жұмыс стрессі? Бұл кез келген адамды ашуландыруы мүмкін. Егер бұл сізге әсер етеді деп ойласаңыз, міндеттеріңіздің қалыпты жүруі үшін қолдан келгеннің бәрін жасаңыз:
+                </p>
+                <p class="main-text">
+                    •   Уақытыңызды басқарыңыз. Істер тізімін жасаңыз және әр жұмысқа жеткілікті уақыт бөліңіз. Егер сізде үлкен жоба болса, оны басқарылатын бөліктерге бөліп, оларға шағын мерзімдер белгілеңіз.
+                </p>
+                <p class="main-text">
+                    •   Тапсырмаларды мұқият орындаңыз, сонда оларды кейінірек түзетуге уақыт қажет болмайсыз.
+                </p>
+                <p class="main-text">
+                    •   Сіздің қолыңыздан келмейтін көп жұмыс жасамаңыз. Егер сіздің табағыңыз тым толып кетсе, басшыға қалай басымдылық беру керектігін тексеріңіз (тыныштықпен).
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Сервистер</h3>
+                        <ul>
+                            <li><a href="home_kaz.html">Дүрбелең мен истерика</a></li>
+                            <li><a href="first_kaz.html">Тез өз-өзінді қолға алуға арналған кеңестер</a></li>
+                            <li><a href="help_kaz.html">Айналаңыздағы адамдарға көмектесіңіз</a></li>
+                            <li><a href="#">Егер сіз демалғыңыз келсе</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Біз жайлы</h3>
+                        <ul>
+                            <li><a href="about_kaz.html#panicblock">Бізбен хабарласу</a></li>
+                            <li><a href="about_kaz.html#helpblock">Біздің команда</a></li>
+                            <li><a href="about_kaz.html#aboutblock">Донат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Safe Room</h3>
+                        <p>
+                            Қазіргі уақытта мазасыздықпен, дүрбелеңмен немесе истерикамен күресетін адамдарға көмектесетін экстра көмек сайты.
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Safe Room © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        let text = document.getElementById('text');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            text.style.top = 50 + value * -0.5 + '%';
+        })
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+        window.addEventListener("scroll", function () {
+            let sidebar = document.querySelector(".navigation");
+            sidebar.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        var tez_ozine_text = document.getElementById("tez_oz_ozine_text");
+        var tez_ozine_audio = document.getElementById("tez_oz_ozine_audio");
+        var count = 0;
+
+        tez_ozine_text.onclick = function () {
+            if (count == 0) {
+                count = 1;
+                tez_ozine_audio.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+
+            } else {
+                count = 0;
+                tez_ozine_audio.pause();
+            }
+        };
+        var durbeleu1 = document.getElementById("durbeleu_text");
+        var durbeleu2 = document.getElementById("durbeleu_audio");
+        var count1 = 0;
+
+        durbeleu1.onclick = function () {
+            if (count1 == 0) {
+                count1 = 1;
+                durbeleu2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count1 = 0;
+                durbeleu2.pause();
+            }
+        };
+        var durbelen1 = document.getElementById("durbelen_text");
+        var durbelen2 = document.getElementById("durbelen_audio");
+        var count211 = 0;
+
+       durbelen1.onclick = function () {
+            if (count211 == 0) {
+                count211 = 1;
+                durbelen2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count211 = 0;
+                durbelen2.pause();
+            }
+        };
+        var doctor1 = document.getElementById("doctor_text");
+        var doctor2 = document.getElementById("doctor_audio");
+        var count21111 = 0;
+
+        doctor1.onclick = function () {
+            if (count21111 == 0) {
+                count21111 = 1;
+                doctor2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count21111 = 0;
+                doctor2.pause();
+            }
+        };
+        var teren_dem1 = document.getElementById("teren_dem_text");
+        var teren_dem2 = document.getElementById("teren_dem_audio");
+        var count211111 = 0;
+
+        teren_dem1.onclick = function () {
+            if (count211111 == 0) {
+                count211111 = 1;
+                teren_dem2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count211111 = 0;
+                teren_dem2.pause();
+            }
+        };
+        var tinis_alu1 = document.getElementById("tinis_alu_text");
+        var tinis_alu2 = document.getElementById("tinis_alu_audio");
+        var count2111 = 0;
+
+        tinis_alu1.onclick = function () {
+            if (count2111 == 0) {
+                count2111 = 1;
+                tinis_alu2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count2111 = 0;
+                tinis_alu2.pause();
+            }
+        };
+        var voice3_1 = document.getElementById("voice3_text");
+        var voice3_2 = document.getElementById("voice3");
+        var count2 = 0;
+
+        voice3_1.onclick = function () {
+            if (count2 == 0) {
+                count2 = 1;
+                voice3_2.play();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count2 = 0;
+                voice3_2.pause();
+            }
+        };
+        var voice4_1 = document.getElementById("voice4_text");
+        var voice4_2 = document.getElementById("voice4");
+        var count3 = 0;
+
+        voice4_1.onclick = function () {
+            if (count3 == 0) {
+                count3 = 1;
+                voice4_2.play();
+                voice3_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count3 = 0;
+                voice4_2.pause();
+            }
+        };
+        var voice5_1 = document.getElementById("voice5_text");
+        var voice5_2 = document.getElementById("voice5");
+        var count4 = 0;
+
+        voice5_1.onclick = function () {
+            if (count4 == 0) {
+                count4 = 1;
+                voice5_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+            } else {
+                count4 = 0;
+                voice5_2.pause();
+            }
+        };
+        var voice6_1 = document.getElementById("voice6_text");
+        var voice6_2 = document.getElementById("voice6");
+        var count5 = 0;
+
+        voice6_1.onclick = function () {
+            if (count5 == 0) {
+                count5 = 1;
+                voice6_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice22_2.pause();
+            } else {
+                count5 = 0;
+                voice6_2.pause();
+            }
+        };
+        var voice7_1 = document.getElementById("voice7_text");
+        var voice7_2 = document.getElementById("voice7");
+        var count6 = 0;
+
+        voice7_1.onclick = function () {
+            if (count6 == 0) {
+                count6 = 1;
+                voice7_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count6 = 0;
+                voice7_2.pause();
+            }
+        };
+        var voice8_1 = document.getElementById("voice8_text");
+        var voice8_2 = document.getElementById("voice8");
+        var count7 = 0;
+
+        voice8_1.onclick = function () {
+            if (count7 == 0) {
+                count7 = 1;
+                voice8_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count7 = 0;
+                voice8_2.pause();
+            }
+        };
+        var voice9_1 = document.getElementById("voice9_text");
+        var voice9_2 = document.getElementById("voice9");
+        var count8 = 0;
+
+        voice9_1.onclick = function () {
+            if (count8 == 0) {
+                count8 = 1;
+                voice9_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count8 = 0;
+                voice9_2.pause();
+            }
+        };
+        var voice10_1 = document.getElementById("voice10_text");
+        var voice10_2 = document.getElementById("voice10");
+        var count9 = 0;
+
+        voice10_1.onclick = function () {
+            if (count9 == 0) {
+                count9 = 1;
+                voice10_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice9_2.pause();
+                voice11_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count9 = 0;
+                voice10_2.pause();
+            }
+        };
+        var voice11_1 = document.getElementById("voice11_text");
+        var voice11_2 = document.getElementById("voice11");
+        var count10 = 0;
+
+        voice11_1.onclick = function () {
+            if (count10 == 0) {
+                count10 = 1;
+                voice11_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice10_2.pause();
+                voice21_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count10 = 0;
+                voice11_2.pause();
+            }
+        };
+        var voice12_1 = document.getElementById("voice12_text");
+        var voice12_2 = document.getElementById("voice12");
+        var count11 = 0;
+
+        voice12_1.onclick = function () {
+            if (count11 == 0) {
+                count11 = 1;
+                voice12_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice21_2.pause();
+                voice11_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count11 = 0;
+                voice12_2.pause();
+            }
+        };
+        var voice13_1 = document.getElementById("voice13_text");
+        var voice13_2 = document.getElementById("voice13");
+        var count13 = 0;
+
+        voice13_1.onclick = function () {
+            if (count13 == 0) {
+                count13 = 1;
+                voice13_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count13 = 0;
+                voice13_2.pause();
+            }
+        };
+        var voice14_1 = document.getElementById("voice14_text");
+        var voice14_2 = document.getElementById("voice14");
+        var count14 = 0;
+
+        voice14_1.onclick = function () {
+            if (count14 == 0) {
+                count14 = 1;
+                voice14_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count14 = 0;
+                voice14_2.pause();
+            }
+        };
+        var voice15_1 = document.getElementById("voice15_text");
+        var voice15_2 = document.getElementById("voice15");
+        var count15 = 0;
+
+        voice15_1.onclick = function () {
+            if (count15 == 0) {
+                count15 = 1;
+                voice15_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice14_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count15 = 0;
+                voice15_2.pause();
+            }
+        };
+        var voice16_1 = document.getElementById("voice16_text");
+        var voice16_2 = document.getElementById("voice16");
+        var count16 = 0;
+
+        voice16_1.onclick = function () {
+            if (count16 == 0) {
+                count16 = 1;
+                voice16_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count16 = 0;
+                voice16_2.pause();
+            }
+        };
+        var voice17_1 = document.getElementById("voice17_text");
+        var voice17_2 = document.getElementById("voice17");
+        var count17 = 0;
+
+        voice17_1.onclick = function () {
+            if (count17 == 0) {
+                count17 = 1;
+                voice17_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count17 = 0;
+                voice17_2.pause();
+            }
+        };
+        var voice18_1 = document.getElementById("voice18_text");
+        var voice18_2 = document.getElementById("voice18");
+        var count18 = 0;
+
+        voice18_1.onclick = function () {
+            if (count18 == 0) {
+                count18 = 1;
+                voice18_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count18 = 0;
+                voice18_2.pause();
+            }
+        };
+        var voice19_1 = document.getElementById("voice19_text");
+        var voice19_2 = document.getElementById("voice19");
+        var count19 = 0;
+
+        voice19_1.onclick = function () {
+            if (count19 == 0) {
+                count19 = 1;
+                voice19_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count19 = 0;
+                voice19_2.pause();
+            }
+        };
+        var voice20_1 = document.getElementById("voice20_text");
+        var voice20_2 = document.getElementById("voice20");
+        var count20 = 0;
+
+        voice20_1.onclick = function () {
+            if (count20 == 0) {
+                count20 = 1;
+                voice20_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice21_2.pause();
+                voice22_2.pause();
+            } else {
+                count20 = 0;
+                voice20_2.pause();
+            }
+        };
+        var voice21_1 = document.getElementById("voice21_text");
+        var voice21_2 = document.getElementById("voice21");
+        var count21 = 0;
+
+        voice21_1.onclick = function () {
+            if (count21 == 0) {
+                count21 = 1;
+                voice21_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice22_2.pause();
+            } else {
+                count21 = 0;
+                voice21_2.pause();
+            }
+        };
+        var voice22_1 = document.getElementById("voice22_text");
+        var voice22_2 = document.getElementById("voice22");
+        var count22 = 0;
+
+        voice22_1.onclick = function () {
+            if (count22 == 0) {
+                count22 = 1;
+                voice22_2.play();
+                voice3_2.pause();
+                voice4_2.pause();
+                voice5_2.pause();
+                voice6_2.pause();
+                voice7_2.pause();
+                voice8_2.pause();
+                voice9_2.pause();
+                voice10_2.pause();
+                voice11_2.pause();
+                voice12_2.pause();
+                voice13_2.pause();
+                voice14_2.pause();
+                teren_dem2.pause();
+                durbeleu2.pause();
+                durbelen2.pause();
+                doctor2.pause();
+                tinis_alu2.pause();
+                tez_ozine_audio.pause();
+                voice15_2.pause();
+                voice16_2.pause();
+                voice17_2.pause();
+                voice18_2.pause();
+                voice19_2.pause();
+                voice20_2.pause();
+                voice21_2.pause();
+            } else {
+                count22 = 0;
+                voice22_2.pause();
+            }
+        };
+    </script>
+</body>
+</html>
