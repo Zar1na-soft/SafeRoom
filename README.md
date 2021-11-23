@@ -16,4 +16,6 @@ This was our project for coding laboratory course activity.
 ## Postscript
 It's not full files for project. Please follow this link to upload audio files.
 ```bash
+https://github.com/Zar1na-soft/AudioSafeRoom
+https://github.com/Zar1na-soft/AudioSafeRoom2
 ```
